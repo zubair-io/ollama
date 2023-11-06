@@ -1,0 +1,14 @@
+name: 'Ollama'
+description: 'Get up and running with large language models, locally.'
+version: '0.1.8'
+slug: 'ollama'
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  11434/tcp: 11434
